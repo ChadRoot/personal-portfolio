@@ -18,16 +18,16 @@ for (var i = 0; themeDots.length > i; i++) {
 
 function setTheme(mode) {
   if (mode == 'light') {
-    document.getElementById('theme-style').href = '../static/main.css'
+    document.getElementById('theme-style').href = 'main.css'
   }
   if (mode == 'blue') {
-    document.getElementById('theme-style').href = '../static/blue.css'
+    document.getElementById('theme-style').href = 'blue.css'
   }
   if (mode == 'green') {
-    document.getElementById('theme-style').href = '../static/green.css'
+    document.getElementById('theme-style').href = 'green.css'
   }
   if (mode == 'purple') {
-    document.getElementById('theme-style').href = '../static/purple.css'
+    document.getElementById('theme-style').href = 'purple.css'
   }
   localStorage.setItem('theme', mode)
 }
